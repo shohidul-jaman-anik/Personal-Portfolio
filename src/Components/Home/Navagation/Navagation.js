@@ -15,12 +15,12 @@ import './Navagation.css';
 
 
 const Navagation = () => {
-  const [user] = useAuthState(auth);
+  // const [user] = useAuthState(auth);
 
-  const handleSignOut = () => {
-    signOut(auth);
-    localStorage.removeItem('language')
-  }
+  // const handleSignOut = () => {
+  //   signOut(auth);
+  //   localStorage.removeItem('language')
+  // }
 
   const { t } = useTranslation();
 
@@ -98,7 +98,7 @@ const Navagation = () => {
             </div>
 
 
-            {user ? (
+            {/* {user ? (
               <button
                 className="btn btn-link text-white text-decoration-none"
                 onClick={handleSignOut}
@@ -109,7 +109,7 @@ const Navagation = () => {
               <Nav.Link as={Link} to="/register">
                 {t('route.signIn')}
               </Nav.Link>
-            )}
+            )} */}
           </Nav>
         </Navbar.Collapse>
       </Container>

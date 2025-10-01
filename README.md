@@ -1,4 +1,4 @@
-# Md Anik - Full Stack Developer Portfolio
+# Shohidul Jaman Anik - Software Developer Portfolio
 
 Welcome to my portfolio! I am a **Software Developer** with expertise in building modern, responsive, and scalable web and mobile applications. I specialize in both frontend and backend development using cutting-edge technologies.  
 

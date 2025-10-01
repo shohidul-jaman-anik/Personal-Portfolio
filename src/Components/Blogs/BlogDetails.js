@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "../Shared/Loading/Loading";
 // import Loading from "@/components/Loading/page";
+import './blogDetails.css'
 
 const BlogDetailPage = () => {
   const { id } = useParams();
@@ -46,12 +47,12 @@ const BlogDetailPage = () => {
   return (
     <div className="container my-5">
       {/* Header Section */}
-      <div className="mb-4">
+      <div className="mb-4 ">
         <img
           src={blog.image || "/images/default.jpg"}
           alt={blog.title}
-          className="img-fluid rounded shadow mb-3"
-          style={{ maxHeight: "400px", objectFit: "cover", width: "100%" }}
+          className="img-fluid rounded shadow mb-3 blogDetailsSection"
+          style={{ maxHeight: "620px", objectFit: "cover", width: "100%" }}
         />
 
         {/* Tags */}
@@ -65,23 +66,6 @@ const BlogDetailPage = () => {
 
         <h1 className="display-4 mb-3">{blog.title}</h1>
 
-        {/* Author */}
-        <div className="d-flex align-items-center gap-3">
-          <div
-            className="rounded-circle bg-light overflow-hidden d-flex align-items-center justify-content-center"
-            style={{ width: "50px", height: "50px" }}
-          >
-            <img
-              src="/images/logo/NeuronsNest_logo.png"
-              alt="Logo"
-              style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            />
-          </div>
-          <div>
-            <p className="mb-0 fw-medium">{blog.author.name}</p>
-            <p className="mb-0 text-muted">{blog.author.email}</p>
-          </div>
-        </div>
       </div>
 
       {/* Content Section */}
@@ -98,8 +82,8 @@ const BlogDetailPage = () => {
       <footer className="mt-5 pt-3 border-top">
         <div className="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3">
           <div>
-            <p className="fw-medium mb-0">Written by {blog.author.name}</p>
-            <p className="text-muted mb-0">{blog.author.email}</p>
+            <p className="fw-medium mb-0">Written by: {blog.author.name}</p>
+            {/* <p className="fw-medium mb-0">{blog.author.email}</p> */}
           </div>
           <div>
             {blog.categories?.map((cat) => (
