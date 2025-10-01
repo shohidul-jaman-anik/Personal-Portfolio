@@ -1,0 +1,59 @@
+.mySkill-container {
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.skillAbout {
+    width: 48%;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+}
+
+.skillAbout h3 {
+    font-size: 32px;
+    /* text-align: left; */
+}
+
+.skillAbout p {
+    font-size: 14px;
+    /* max-width: 90%; */
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.skillAbout button {
+    width: 166px;
+    font-size: 16px;
+}
+
+.skillProgress {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill span {
+    font-family: Open Sans, sans-serif;
+
+}
+
+.skill h5 {
+    font-size: 18px;
+    text-align: left;
+    padding: 0 4px;
+    /* color: rgb(191, 191, 255); */
+}
+@media only screen and (max-width:600px) {
+
+    .mySkill-container {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

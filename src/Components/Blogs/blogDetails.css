@@ -1,0 +1,16 @@
+.detailsImg{
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .detailsImg{
+        width: 80%;
+        height: 45%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+  }

@@ -1,0 +1,53 @@
+#navbarNavDropdown ul li a {
+  color: #fff;
+}
+#navbarNavDropdown {
+  color: #fff;
+  background-image: linear-gradient(
+      54deg,
+      rgba(74, 76, 179, 0.95) 34%,
+      rgba(36, 16, 169, 0.95)
+    ),
+    url("../../../img/origin.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: auto;
+  background-size: cover;
+}
+
+#navbarNavDropdown ul li a:hover {
+  color: #ec422c;
+}
+
+.navName {
+  color: #eb3e1f;
+}
+
+.navStyle {
+  position: fixed !important;
+  top: 0px !important;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  background-image: linear-gradient(
+      54deg,
+      rgba(74, 76, 179, 0.95) 34%,
+      rgba(36, 16, 169, 0.95)
+    ),
+    url("../../../img/origin.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: auto;
+  background-size: cover;
+}
+.navbar-toggler-icon {
+  background-image: url("../../../img/menubar.png");
+}
+
+@media only screen and (max-width: 600px) {
+  .user-image {
+    align-self: center;
+  }
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/qNwVBN6/all-devices-black-12.png",
+    "name": "❖ Robotic",
+    "date": "July 2022 - July 2022",
+    "website": "https://robotic-d0eb2.web.app",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/Robotic-Client",
+    "backendGit": "https://github.com/shohidul-jaman-anik/Robotic-Server",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is a Robotic Manufacture website.Home page have a Header, Banner,Partner, Product, Business Summary, why choose us, Benefits, Fututre of Robotics, Review, Book Consultation and Footer.",
+      "➣ If a user is logged in, they will able to purchage product.",
+      "➣  If a Admin is logged in, they will see Dashboard, where he/she can make Admin. Admin can add a new product. And on the Manage product, an admin can delete any product.",
+      "➣  Firebase authentication setup.",
+      "➣  Implement JWT token and Payment Gateway(stripe)."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "#Tailwind",
+      "#JavaScript",
+      "#React",
+      "#daisyUI",
+      "#SendGrid",
+      "#stripe",
+      "#zoom magnify",
+      "#Scroll to top",
+      "#Counter up",
+      "#react-query",
+      "#react-slick",
+      "#react-hook-form",
+      "#Heroku",
+      "#Firebase",
+      "#Node JS",
+      "#Node Express",
+      "#MongoDB",
+      "And More..."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/vCF9YCw/all-devices-black-1.png",
+    "name": "❖ Health Solution",
+    "date": "Oct 2022 - Oct 2022",
+    "website": "https://doctor-portal-68a5c.web.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/doctor-portal",
+    "backendGit": "https://github.com/shohidul-jaman-anik/doctor-portal-server",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is a Teeth dental website.Home page have a Header (simple navbar), Banner,Testmonials, Services,Contact, and Footer.",
+      "➣ If a user is logged in, they will able to book appointment.One user can book one treatment in a day on time.",
+      "➣  If a admin is logged in, they will see Dashboard, where he/she can make Admin.Admin can add a new doctor. And on the Manage Doctors page, an admin can delete any doctors.",
+      "➣  Firebase authentication setup.",
+      "➣  Implement JWT token and Payment Gateway(stripe)."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "#Tailwind",
+      "#JS",
+      "#React",
+      "#daisyUI",
+      "#SendGrid",
+      "#Emailjs",
+      "#Date Picker",
+      "#react-query",
+      "#react-slick",
+      "#react-hook-form",
+      "#Heroku",
+      "#Firebase",
+      "#Node JS",
+      "#Node Express",
+      "#MongoDB",
+      "And More..."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/L608wr4/all-devices-black-9.png",
+    "name": "❖ Manufacture Plant",
+    "date": "Nov 2022 - Nov 2022",
+    "website": "https://manufacturing-plant.web.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/manufacture-plant-clinte-side",
+    "backendGit": "https://github.com/shohidul-jaman-anik/manufacture-plant",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is a tools manufacturer website.Home page have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer.",
+      "➣  If a user is logged in, they will see on the header My Orders, Add A Review, My Profile.",
+      "➣ If a admin is logged in, they will see Dashboard, where he/she has ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts.",
+      "➣  Implement payment get way and Firebase authentication."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Tailwind",
+      "#JS",
+      "#React",
+      "#React router",
+      "#React query",
+      "#react-hook-form",
+      "#react-slick",
+      "#AOS",
+      "#React-typed",
+      "#React hook  form",
+      "#Heroku",
+      "#Firebase",
+      "#Node JS",
+      "#Node Express",
+      "#MongoDB",
+      "And More..."
+    ]
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/wBgqbBD/all-devices-black-8.png",
+    "name": "❖ Power Zone",
+    "date": "July 2022 - July 2022",
+    "website": "https://power-zone-d77bd.web.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/Power-Zone",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ Geym website with dynamic functions and responsive design.",
+      "➣ Allows user to create an account, book packages, add custom packages, and delete them.",
+      "➣ Google firebase authentication has been added.",
+      "➣ Reviews are dynamic."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Tailwind",
+      "#JS",
+      "#React",
+      "#React router",
+      "#Firebase",
+      "And More..."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/TKjw9th/all-devices-black-15.png",
+    "name": "❖ Moon-Tech",
+    "date": "Jan 2023 - Feb 2023",
+    "website": "https://moon-technology.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/redux-toolkit-mt-client",
+    "backendGit": "https://github.com/shohidul-jaman-anik/moon-tech-server",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is a small tech website.",
+      "➣ Here you can add product,delete product,and update product.",
+      "➣ Also here a user can filter and  sort the product.",
+      "➣ The main perpous to make this website implement the Redux-toolkit."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Tailwind",
+      "#JS",
+      "#React",
+      "#Redux",
+      "#Node JS",
+      "#Express",
+      "#MongoDB",
+      "And More..."
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/5YC3tWZ/all-devices-black-7.png",
+    "name": "❖ The Beer House",
+    "date": "Jan 2022 - Feb 2022",
+    "website": "https://splendorous-madeleine-52daa1.netlify.app/home",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/The-Beer-House",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This is responsive website focused on UI using HTML5, CSS3, Bootstrap , JavaScript and React ",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Bootstrap",
+      "#JS",
+      "#React",
+      "#React router",
+      "And More..."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/wRFGwZF/all-devices-black-14.png",
+    "name": "❖ Personal Blog",
+    "date": "Jan 2023 - Feb 2023",
+    "website": "https://my-personal-blogs.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/manufacture-plant-clinte-side",
+    "backendGit": "https://github.com/shohidul-jaman-anik/manufacture-plant",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is a personal blog website.",
+      "➣ Here you can read blog, add blog ,delete blog,and update blog.",
+      "➣ Also here a user can filter and  sort the blog.",
+      "➣ The main perpous to make this website implement the redux-thunk."
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Tailwind",
+      "#JS",
+      "#React",
+      "#Redux-Thunk",
+      "#Node JS",
+      "#Express",
+      "#MongoDB",
+      "And More..."
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/bddrQ4w/all-devices-black-6.png",
+    "name": "❖ Car House",
+    "date": "July 2022 - July 2022",
+    "website": "https://stately-bienenstitch-c4b181.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/car-house",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is responsive website focused on UI using HTML5, CSS3, Bootstrap , JavaScript and React ",
+      "➣ Increase decrese car and a user choose for himself a random car",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Bootstrap",
+      "#JS",
+      "#React",
+      "#React router",
+      "And More..."
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/gSJPYgT/all-devices-black-19.png",
+    "name": "❖ Ema John",
+    "date": "July 2022 - July 2022",
+    "website": "https://i.ibb.co/gSJPYgT/all-devices-black-19.png",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/ema-john",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣ This is responsive website focused on UI using HTML5, CSS3, Bootstrap , JavaScript and React ",
+      "➣ Increase decrese car and a user choose for himself a random car",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": [
+      "#Html5",
+      "#CSS3",
+      "Bootstrap",
+      "#JS",
+      "#React",
+      "#React router",
+      "And More..."
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/fSqzcYW/all-devices-black-5.png",
+    "name": "❖ Smart Gadget world",
+    "date": "July 2022 - July 2022",
+    "website": "https://gracious-galileo-45a7df.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/smart-gadget-world",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": [
+      "#HTML5",
+      "#CSS3",
+      "#BootStrap",
+      "#JavaScript",
+      "And More..."
+    ]
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/6bB0Q7d/all-devices-black-18.png",
+    "name": "❖ Edu Meeting",
+    "date": "March 2022 - March 2022",
+    "website": "https://educational-meeting.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/Educational-Website",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  },
+
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/FVNpQbW/all-devices-black-1.png",
+    "name": "❖ Anik Convention Center",
+    "date": "July 2022 - July 2022",
+    "website": "https://keen-benz-bf096f.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/convention-center",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/Lv5vMNv/all-devices-black-17.png",
+    "name": "❖ Display Temperature",
+    "date": "March 2022 - March 2022",
+    "website": "https://wonderful-swirles-cfc353.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/Display-Temperature",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#Tailwind", "#JavaScript"]
+  },
+
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/j33Rqd9/all-devices-black-16.png",
+    "name": "❖ Pixelean Dashboard",
+    "date": "March 2023 - March 2023",
+    "website": "https://pixelean-job-task.netlify.app/",
+    "frontendGit": "",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#Tailwind", "#JavaScript"]
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/F6t8g0J/all-devices-black-4.png",
+    "name": "❖ Panda E-commerce",
+    "date": "July 2022 - July 2022",
+    "website": "https://delicate-pixie-066c0f.netlify.app/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/Panda-e-ecommerce",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/1Gxmrgb/all-devices-black.png",
+    "name": "❖ Influencer website",
+    "date": "July 2022 - July 2022",
+    "website": "https://anik2861.github.io/influencer/",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/influencer",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/Gn6d6hH/all-devices-black-3.png",
+    "name": "❖ Leader Board",
+    "date": "July 2022 - July 2022",
+    "website": "https://luminous-vacherin-96647d.netlify.app/",
+    "frontendGit": "",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This was my beginning levele static responsive website focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Used fancy carousel & hosted on netlify",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  },
+
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/Lk7BssP/all-devices-black-2.png",
+    "name": "❖ Mission 2022",
+    "date": "July 2022 - July 2022",
+    "website": "https://anik2861.github.io/MY-ASSIGNMENT/index.html",
+    "frontendGit": "https://github.com/shohidul-jaman-anik/MY-ASSIGNMENT",
+    "linkedin": "https://www.linkedin.com/in/md-anik-495651218/",
+    "des": [
+      "➣  This is my life first website, focused on UI using HTML5, CSS3, Bootstrap and JavaScript",
+      "➣ Simple personal website ",
+      "➣ Amzging UI exprience"
+    ],
+    "Technology": ["#HTML5", "#CSS3", "#BootStrap", "#JavaScript"]
+  }
+]

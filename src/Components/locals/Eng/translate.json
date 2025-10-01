@@ -1,0 +1,76 @@
+{
+    "home": {
+        "name": "Shohidul Jaman Anik",
+        "downloadResume": "Download Resume",
+        "bannerDescription": "Are You Looking For A Professional Full-Stack Software Developer ? Who Can Build A Fully-Featured, Clean Code Responsive Single/Multi-Page Full-Stack Website.If Your Ans 'Yes', Welcome! You Are In The Right Place.",
+        "bannerTitle": "Shohidul Jaman Anik",
+        "skill": "I am an innovative, creative thinker who is adept at coming up with real solutions that work for clients. With experience in a wide variety of software, system architectures and programming languages, I am always current with the latest developments in the software development world. I pride myself on optimizing function and providing solutions that are intuitive user-friendly, adaptable and effective.",
+        "contact": "Full-Stack Software Developer, I Create Full-Stack Project, I Have Years Of Experience And Many Clients Are Happy With The Projects Carried Out",
+        "experience": "Experience",
+        "completed": "Completed",
+        "support": "Support",
+        "1year": "1 Years Working",
+        "55projects": "55 + Projects",
+        "online": "Online 24/7",
+        "contactBtn": "Contact Me",
+        "fewFactTitle": "A Few Facts About ",
+        "myself": "Myself",
+        "subTitle": "Try to understand customer expectation",
+        "completeProjects": "Complete Projects",
+        "buyer": "Buyer In The World",
+        "mySkill": "My Skill",
+        "exploreMore": "Explore More"
+    },
+    "route": {
+        "title": "Shohidul Jaman Anik",
+        "home": "Home",
+        "project": "Projects",
+        "review": "Reviews",
+        "contact": "Contact",
+        "about": "About",
+        "blogs": "Blogs",
+        "signIn": "Sign In",
+        "signOut": "Sign Out"
+    },
+    "review": {
+        "happyClints": "Happy Clints",
+        "award": "Award",
+        "review4": "Very Professional And Great Personality, I Enjoyed Working With Him, We Accomplished A Lot, Warmly Recommend!",
+        "name4": "Ronald Frazier",
+        "review3": "Excellent Code Quality, Great Understanding Of Requirements, And Very Intelligent Execution.",
+        "name3": "Thea Linde",
+        "review2": "Anik Has Done Really A Great Job! Amazing Developer, Very Friendly To Work With. Highly Recommend",
+        "name2": "Ronald Frazier",
+        "review1": "It Is Always A Pleasure Working With Anik. Works To Get Things The Way We Wanted Them. Very Happy And Look Forward Working Again Together For Future Projects We May Have.",
+        "name1": "MEHEDI MUGDHO",
+        "marque": "Share Your Thoughts With Other Customers",
+        "writeReview": "Write A Coustomer Review",
+        "rating": "Rating",
+        "reviewBtn": "Add Review",
+        "review": "Review"
+    },
+    "about": {
+        "description": "My name is Shohidul Jaman Anik . Application Design & Development is my passion. I Love To Learn New Skills to Become myself a Pro Developer.Now I am learning Python. I Get Deeper to Understand Client's Needs & Problems. My Mission is to Satisfy Every Client. Because Client Satisfaction is My First Priority. You'll Get Lifetime Support in Any Situation, I Promise that, You'll Get Fanatical Support And Absolutely Positively On-Time Delivery."
+    },
+    "footer": {
+        "contactUs": "Contact Me",
+        "address": "Location: Hasnabad BRTA Road, Dhaka-1311",
+        "gmail": "Official",
+        "mobile": "Mobile",
+        "usefullLink": "Usefull Link",
+        "aboutMe": "About Me",
+        "refundPolicy": "Refund Policy",
+        "term": "Terms & Condition",
+        "privacyPolicy": "Privacy Policy",
+        "payment": "Payment",
+        "copyright": "Copyright © 2022",
+        "reserve": "All Rights Reserve By ",
+        "name": " Shohidul Jaman Anik"
+    },
+    "service": {
+        "softDev": "Software Development",
+        "application": "Application Development",
+        "bug": "Bug/Error Solving ",
+        "seeMore": "See More"
+    }
+}

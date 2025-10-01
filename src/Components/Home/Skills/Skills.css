@@ -1,0 +1,79 @@
+/* =============== SKILLS =============== */
+.skills{
+margin-top: 8rem;
+margin-bottom: 8rem;
+}
+.skills__container {
+    row-gap: 2rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.skills__content {
+    background-color: whitesmoke;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+
+.skills__title {
+    font-size: larger;
+    font-weight: 700;
+    color: #ec422c;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.skills__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.skills__group {
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+}
+
+.skills__data {
+    display: flex;
+    column-gap: .5rem;
+}
+
+.skills .bxs-badge-check {
+    font-size: 1rem;
+    color: blue;
+}
+
+.skills__name {
+    font-size: large;
+    font-weight: 700;
+    line-height: 18px;
+    color: black;
+}
+
+.skills__level {
+    font-size: medium;
+    color: black;
+}
+
+.section__title {
+    font-size: x-large;
+    color: #ec422c;
+    margin-bottom: 2rem;
+}
+
+.section__subtitle {
+    display: block;
+    font-size: small;
+}
+
+
+@media only screen and (max-width:600px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

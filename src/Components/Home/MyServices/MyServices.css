@@ -1,0 +1,131 @@
+/*=============== SERVICES ===============*/
+
+.services__container {
+    width: 95%;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services__card {
+    background-color: whitesmoke;
+    padding: 3rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.services__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 2.5rem;
+}
+
+.services__button {
+    color: blue;
+    font-size: small;
+    text-align: center;
+    column-gap: .25rem;
+    cursor: pointer;
+}
+
+.services__button:hover .services__icon {
+    transform: translateX(.25rem);
+}
+
+.services__icon {
+    font-size: 1rem;
+    transition: .4s;
+}
+
+
+
+/* Services modal */
+.services__modal {
+    position: fixed;
+    inset: 0;
+    background-color: hsl(var(--second-hue), 28%, 16%, .7);
+    padding: 2rem 1rem;
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    z-index: var(--z-modal);
+}
+
+.services__modal-content {
+    position: relative;
+    background-color: whitesmoke;
+    padding: 4.5rem 1.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.services__modal-title,
+.services__modal-description {
+    text-align: center;
+}
+
+.services__modal-title {
+    font-size: x-large;
+    /* color: #eb3e1f; */
+    color: cornflowerblue;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.services__modal-description {
+    font-size: medium;
+    margin-bottom: 2rem;
+}
+
+.services__modal-list {
+    display: grid;
+    row-gap: .75rem;
+}
+
+.services__modal-item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: .5rem;
+}
+
+.services__modal-icon {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.services__modal-info {
+    font-size: var(--small-font-size);
+}
+
+.services__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.services {
+    margin: 2rem 0rem;
+}
+
+/*Active modal*/
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media only screen and (max-width:600px) {
+    .services__container {
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

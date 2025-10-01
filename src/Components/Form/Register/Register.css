@@ -1,0 +1,15 @@
+.registerTitle{
+    text-align: center;
+    color: #eb3e1f;
+    font-weight: 700;
+}
+.regContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.registerBtn {
+    background-image: linear-gradient(25deg,
+            rgb(235, 64, 42) 0%,
+            rgb(194, 30, 180) 100%);
+}
