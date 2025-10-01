@@ -1,71 +1,71 @@
-# Getting Started with Create React App
+# Md Anik - Full Stack Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! I am a **Software Developer** with expertise in building modern, responsive, and scalable web and mobile applications. I specialize in both frontend and backend development using cutting-edge technologies.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Frontend Skills
 
-### `yarn start`
+| Technology       | Proficiency  |
+|-----------------|-------------|
+| HTML             | Advanced    |
+| CSS              | Advanced    |
+| Bootstrap        | Advanced    |
+| Tailwind         | Advanced    |
+| JavaScript       | Advanced    |
+| TypeScript       | Advanced    |
+| React            | Advanced    |
+| React Native     | Intermediate|
+| Next.js          | Advanced    |
+| Angular          | Advanced    |
+| Firebase         | Advanced    |
+| Redux            | Advanced    |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Backend Skills
 
-### `yarn test`
+| Technology       | Proficiency  |
+|-----------------|-------------|
+| Node.js          | Advanced    |
+| Express.js       | Advanced    |
+| Django           | Advanced    |
+| GraphQL          | Advanced    |
+| Socket.io        | Intermediate|
+| Mongoose         | Advanced    |
+| PostgreSQL       | Advanced    |
+| MongoDB          | Advanced    |
+| Docker           | Advanced    |
+| Kubernetes       | Intermediate|
+| AWS              | Advanced    |
+| Jest             | Advanced    |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 🚀 About Me
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Passionate about **building scalable and maintainable applications**.
+- Experienced in **modern frontend frameworks** and **backend architectures**.
+- Skilled in **deploying applications on cloud services like AWS and using containerization tools like Docker and Kubernetes**.
+- Focused on writing **clean, optimized, and readable code** with proper testing and documentation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Portfolio Highlights
 
-### `yarn eject`
+- Web applications built with **React, Next.js, and Angular**.
+- Mobile apps using **React Native**.
+- Full stack projects with **Node.js, Express, Django, and MongoDB/PostgreSQL**.
+- Real-time applications using **Socket.io and GraphQL APIs**.
+- Deployment on **AWS** with **Docker & Kubernetes** setups.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📫 Contact Me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Email:** anikh499@gmail.com  
+- **Portfolio:** [shohidul-jaman-anik.com](http://shohidul-jaman-anik.com)  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Personal-Portfolio
+> I am always excited to collaborate on **innovative projects**, improve existing systems, and implement **scalable solutions** for businesses.
