@@ -2056,6 +2056,18 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.5.tgz"
   integrity sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==
 
+"@lottiefiles/dotlottie-react@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.npmjs.org/@lottiefiles/dotlottie-react/-/dotlottie-react-0.17.3.tgz"
+  integrity sha512-4PeJxXgnjg9JT5V8Qd/+0x9zC0K4iUNEXbucaiQoxTyx/rITYAvzP5JNYD0rhTMyn6edvtdBG6DPm0WOnEiatg==
+  dependencies:
+    "@lottiefiles/dotlottie-web" "0.53.1"
+
+"@lottiefiles/dotlottie-web@0.53.1":
+  version "0.53.1"
+  resolved "https://registry.npmjs.org/@lottiefiles/dotlottie-web/-/dotlottie-web-0.53.1.tgz"
+  integrity sha512-UDm4ANdeO+Vq47c6idU7x4kQAX2AohF6ynRvmsGnT2GRXYpTa7p4VZYmesvhWqahEWUD7qZq6hPy2CXna8wt9g==
+
 "@material-ui/core@^4.12.4":
   version "4.12.4"
   resolved "https://registry.npmjs.org/@material-ui/core/-/core-4.12.4.tgz"
@@ -10475,6 +10487,11 @@ sweetalert@^2.1.2:
   dependencies:
     es6-object-assign "^1.1.0"
     promise-polyfill "^6.0.2"
+
+swiper@^12.0.2:
+  version "12.0.2"
+  resolved "https://registry.npmjs.org/swiper/-/swiper-12.0.2.tgz"
+  integrity sha512-y8F6fDGXmTVVgwqJj6I00l4FdGuhpFJn0U/9Ucn1MwWOw3NdLV8aH88pZOjyhBgU/6PyBlUx+JuAQ5KMWz906Q==
 
 symbol-tree@^3.2.4:
   version "3.2.4"

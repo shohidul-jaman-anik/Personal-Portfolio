@@ -18,11 +18,17 @@ import ScrollToTop from "react-scroll-to-top";
 // import Blogs from './Components/Blogs/Blogs';
 
 import ExploreMore from './Components/Other/ExploreMore/ExploreMore';
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 import i18n from './i18n'
 import { useContext } from 'react';
 import { themeContext } from './Context';
 import Loading from './Components/Shared/Loading/Loading';
+import WebDevelopment from './Components/services/web-development/WebDevelopment';
+import AppDevelopment from './Components/services/app-development/AppDevelopment';
+import SoftwareDevelopment from './Components/services/software-development/SoftwareDevelopment';
+import AiAutomation from './Components/services/ai-automation/AiAutomation';
+import WorkflowAutomation from './Components/services/workflow-automation/WorkflowAutomation';
+import MarketingCRM from './Components/services/marketing/Marketing';
+// import Workflow from './Components/Home/Workflow/Workflow';
 // import BlogDetails from './Components/BlogDetails/BlogDetails';
 
 
@@ -87,7 +93,13 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/projects" element={<Projects />} />
         <Route path='/addReview' element={<AddReview></AddReview>}></Route>
-        <Route path='/allProjects' element={<AllProjects></AllProjects>}></Route>
+        <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/services/web-development' element={<WebDevelopment></WebDevelopment>}></Route>
+        <Route path='/services/app-development' element={<AppDevelopment></AppDevelopment>}></Route>
+        <Route path='/services/software-development' element={<SoftwareDevelopment></SoftwareDevelopment>}></Route>
+        <Route path='/services/ai-automation' element={<AiAutomation></AiAutomation>}></Route>
+        <Route path='/services/workflow-automation' element={<WorkflowAutomation></WorkflowAutomation>}></Route>
+        <Route path='/services/marketing' element={<MarketingCRM></MarketingCRM>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/ExploreMore' element={<ExploreMore></ExploreMore>}></Route>
@@ -100,10 +112,10 @@ function App() {
       <Footer></Footer>
       <ScrollToTop smooth color="#6f00ff" />
 
-      <MessengerCustomerChat
+      {/* <MessengerCustomerChat
         pageId="104595619014250"
         appId="1007175946615558"
-      />
+      /> */}
 
 
       <ToastContainer></ToastContainer>

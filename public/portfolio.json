@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "projectName": "Bright Gadget",
+    "bannerTitle": "Bright Gadget – Modern Gadget E-commerce Store",
+    "bannerDescription": "Bright Gadget is a sleek, high-performance single-vendor e-commerce platform designed for selling gadgets, electronics, and smart accessories. Built with user-friendly navigation, lightning-fast product browsing, and secure checkout, this platform offers a smooth shopping experience tailored for tech enthusiasts. From mobile devices and headphones to cutting-edge gadgets, Bright Gadget provides a visually engaging and reliable solution for online gadget stores.",
+    "bannerImg": "/images/portfolio/BrightGadget/home/brightgadget_banner_1.png",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/BrightGadget/home/gadget_home_1.png",
+          "/images/portfolio/BrightGadget/home/gadget_home_2.png",
+          "/images/portfolio/BrightGadget/home/gadget_home_3.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/BrightGadget/feature/feature_1.png",
+          "/images/portfolio/BrightGadget/feature/feature_2.png",
+          "/images/portfolio/BrightGadget/feature/feature_3.png",
+          "/images/portfolio/BrightGadget/feature/feature_4.png",
+          "/images/portfolio/BrightGadget/feature/feature_5.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "⚡ Fast Gadget Browsing",
+            "details": "Optimized product listing and smart filtering for categories like mobiles, laptops, headphones, and accessories."
+          },
+          {
+            "subtitle": "🔐 Secure Checkout Process",
+            "details": "Streamlined cart and checkout system with safe and reliable payment integrations for worry-free transactions."
+          },
+          {
+            "subtitle": "📱 Responsive & Modern Design",
+            "details": "Mobile-first design ensures smooth shopping across smartphones, tablets, and desktops."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/BrightGadget/dashboard/dashboard_1.png",
+          "/images/portfolio/BrightGadget/dashboard/dashboard_2.png",
+          "/images/portfolio/BrightGadget/dashboard/dashboard_3.png",
+          "/images/portfolio/BrightGadget/dashboard/dashboard_4.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "📦 Product & Inventory Management",
+            "details": "Easily add, edit, and manage gadgets with real-time stock updates and low-inventory alerts."
+          },
+          {
+            "subtitle": "🛍️ Order Tracking Dashboard",
+            "details": "Monitor all orders, payment statuses, and delivery updates from a single admin panel."
+          },
+          {
+            "subtitle": "👨‍💻 Customer Management",
+            "details": "Track customer details, purchase history, and support requests to improve retention."
+          },
+          {
+            "subtitle": "📊 Sales Reports & Analytics",
+            "details": "Gain insights into top-selling gadgets, revenue growth, and customer buying behavior with detailed reports."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "Ecom Stores",
+    "bannerTitle": "Ecom Stores – Elegant Jewelry & Fashion Shop",
+    "bannerDescription": "Ecom Stores is a beautifully designed single-vendor e-commerce website focused on women’s fashion and jewelry. From gold necklaces and diamond earrings to stylish accessories, this platform delivers a premium shopping experience with a luxurious look and feel. Tailored for fashion lovers, Ecom Stores combines elegance with functionality, offering an easy-to-use interface, secure payment options, and a seamless buying journey.",
+    "bannerImg": "/images/portfolio/EcomStores/home/ecomstores_banner.jpg",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/EcomStores/home/home_full.png",
+          "/images/portfolio/EcomStores/home/home_1.png",
+          "/images/portfolio/EcomStores/home/collection.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/EcomStores/feature/product_details.png",
+          "/images/portfolio/EcomStores/feature/cart.png",
+          "/images/portfolio/EcomStores/feature/wishlist.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "💍 Elegant Product Showcasing",
+            "details": "High-quality images and detailed descriptions for jewelry, necklaces, earrings, and accessories."
+          },
+          {
+            "subtitle": "🛒 Smooth Shopping Experience",
+            "details": "Easy cart management, secure checkout, and multiple payment integrations for customer convenience."
+          },
+          {
+            "subtitle": "💖 Wishlist & Favorites",
+            "details": "Customers can save their favorite items for future purchases with a personalized wishlist feature."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/EcomStores/dashboard/products.png",
+          "/images/portfolio/EcomStores/dashboard/orders.png",
+          "/images/portfolio/EcomStores/dashboard/reports.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "💎 Product & Category Management",
+            "details": "Manage jewelry collections, update categories, and organize products for better store navigation."
+          },
+          {
+            "subtitle": "🧾 Order & Customer Dashboard",
+            "details": "View customer details, order history, and payment confirmations in a centralized dashboard."
+          },
+          {
+            "subtitle": "📊 Business Analytics",
+            "details": "Track revenue growth, popular product categories, and customer demographics through detailed analytics."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "projectName": "Ecommerce",
+    "bannerTitle": "Full-Featured Multi-Vendor E-commerce Platform",
+    "bannerDescription": "Everything you need to sell online — built with speed, usability, and flexibility in mind.This custom-built e-commerce system is designed to make online shopping smooth for customers and effortless for store owners. From product browsing to order tracking, it covers every step of the buying journey—while giving admins full control over the business backend. Whether you’re a solo store owner or managing a marketplace with dozens of vendors, this platform adapts to your needs.",
+    "bannerImg": "/images/portfolio/Ecommerce/home/ecommerce_banner.jpg",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/Ecommerce/home/ecommerce_home_full.png",
+          "/images/portfolio/Ecommerce/home/ecommerce_home_1.png",
+          "/images/portfolio/Ecommerce/home/chat.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/Ecommerce/feature/product_details.png",
+          "/images/portfolio/Ecommerce/feature/cart.png",
+          "/images/portfolio/Ecommerce/feature/my_order.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "Smart Product Search",
+            "details": "Find what you need quickly. Filter by category — Men’s/Women’s Fashion, Electronics, Footwear, and more."
+          },
+          {
+            "subtitle": "Seamless Cart & Checkout",
+            "details": "A smooth, user-friendly cart and checkout process with item tracking and secure payment flow."
+          },
+          {
+            "subtitle": "Secure Payment Gateway Integration",
+            "details": "Integrated with local and global payment gateways like bKash, Nagad, Visa, and Mastercard."
+          },
+          {
+            "subtitle": "Order Tracking & Returns",
+            "details": "Customers can easily track their orders, request returns, or re-order from their own dashboard."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/Ecommerce/dashboard/all_product.png",
+          "/images/portfolio/Ecommerce/dashboard/all_order.png",
+          "/images/portfolio/Ecommerce/dashboard/add_product.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "Real-Time Inventory Management",
+            "details": "Track stock levels, manage product availability, and avoid overselling with dynamic inventory updates."
+          },
+          {
+            "subtitle": "Centralized Admin Control Panel",
+            "details": "Manage products, categories, customers, and orders all from a single, intuitive dashboard."
+          },
+          {
+            "subtitle": "Order & Customer Analytics",
+            "details": "View key metrics to understand sales trends, customer behavior, and overall store performance."
+          },
+          {
+            "subtitle": "Customer Support Handling",
+            "details": "Handle customer queries, returns, and feedback efficiently with built-in support tools."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "projectName": "Hexatech",
+    "bannerTitle": "Hexatech – All-in-One Business Suite",
+    "bannerDescription": "Hexatech is an advanced, all-in-one CRM and business automation platform developed. Designed to streamline operations for modern businesses, it features over 30 powerful modules including inventory management, project tracking, task automation, email campaigns, analytics, scheduling, team collaboration, and more. Whether it's managing contacts, launching marketing campaigns, or generating custom reports, Hexatech brings everything under one smart, intuitive interface. With its scalable design and sleek UI, Hexatech is a complete solution for businesses seeking efficiency and growth through seamless digital transformation.",
+    "bannerImg": "/images/portfolio/Hexatech/home/hexatech_home.png",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/Hexatech/home/hexatech_home.png",
+          "/images/portfolio/Hexatech/home/home.png",
+          "/images/portfolio/Hexatech/home/workflow_hero.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/Hexatech/feature/scheduler.png",
+          "/images/portfolio/Hexatech/feature/spreadsheets.png",
+          "/images/portfolio/Hexatech/feature/docs.png",
+          "/images/portfolio/Hexatech/feature/workflow_data.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "Real-Time Analytics & Monitoring",
+            "details": "Our platform provides live data insights and performance monitoring, empowering businesses to make informed decisions quickly. The intuitive dashboard offers a clear overview of key metrics and trends."
+          },
+          {
+            "subtitle": "Collaborative Document Editor",
+            "details": "A powerful, in-built text editor allows multiple users to collaborate on documents simultaneously. This feature streamlines workflows, centralizes project files,and enhances team communication."
+          },
+          {
+            "subtitle": "Integrated Scheduling & Task Management",
+            "details": "The dynamic calendar and task manager simplify project planning and team coordination. Users can schedule events and manage deadlines directly within the application, ensuring seamless project execution."
+          },
+          {
+            "subtitle": "Visualized Idea Mapping",
+            "details": "Our mind-mapping tool enables teams to visually brainstorm and organize complex ideas. This feature transforms strategic planning by offering a clear and interactive way to develop and share concepts."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/Hexatech/dashboard/dashboard_1.png",
+          "/images/portfolio/Hexatech/dashboard/dashboard_2.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "Comprehensive Data Visualization",
+            "details": "The platform features an advanced dashboard with dynamic charts and graphs. These tools transform complex data into clear, actionable visual insights, making it easy for users to monitor progress and identify trends."
+          },
+          {
+            "subtitle": "Team and Resource Management",
+            "details": "An at-a-glance overview shows a company's total applications, projects, and team members. This feature provides a centralized hub for managing resources and tracking key operational metrics efficiently."
+          },
+          {
+            "subtitle": "Performance Monitoring Dashboard",
+            "details": "Users can track various performance indicators through dedicated widgets and graphs. This customized dashboard provides a holistic view of the company's health, helping to measure success and pinpoint areas for improvement."
+          },
+          {
+            "subtitle": "Customizable Reporting",
+            "details": "The project offers flexible reporting tools that allow users to generate detailed reports based on their specific needs. This functionality provides a deeper understanding of business performance and supports strategic decision-making."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "projectName": "ASON",
+    "bannerTitle": "ASON AI — Powerful AI-driven Platform",
+    "bannerDescription": "ASON AI is a powerful AI-driven platform designed to revolutionize content creation, task automation, and intelligent interactions. From generating high-quality audio and video to engaging in prompt-based AI conversations and deploying specialized AI agents, ASON AI brings a wide array of advanced artificial intelligence technologies into a single, user-friendly platform. Whether you're a creator, a business team, or a developer looking to integrate AI into your workflow, ASON AI provides a modular, intuitive platform that combines the strength of modern AI models with tools that anyone can use—no deep tech knowledge required.",
+    "bannerImg": "/images/portfolio/Ason/home/ason_banner.png",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/Ason/home/chat.png",
+          "/images/portfolio/Ason/home/chat-2.png",
+          "/images/portfolio/Ason/home/chat-3.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/Ason/feature/models.png",
+          "/images/portfolio/Ason/feature/connectors.png",
+          "/images/portfolio/Ason/feature/agents.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "Seamless Multi-Model Integration",
+            "details": "Asonai combines powerful AI models like Gemini, Grok, and more — enabling users to switch and utilize different intelligence engines based on task-specific needs."
+          },
+          {
+            "subtitle": "Smart Social Platform Connectors",
+            "details": "Easily integrate Gmail, Facebook, Twitter, and other platforms. Asonai’s connectors allow real-time interaction, content generation, and communication from a single workspace."
+          },
+          {
+            "subtitle": "Built-in Intelligent Agents",
+            "details": "Asonai comes equipped with specialized agents for coding, image generation, real-time web search, and virtual desktop environments — all accessible instantly."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/Ason/dashboard/transaction.png",
+          "/images/portfolio/Ason/dashboard/traffic.png",
+          "/images/portfolio/Ason/dashboard/dashboard.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "User Insights Dashboard",
+            "details": "Track user growth, behavior patterns, and activity in real-time through interactive charts and statistics."
+          },
+          {
+            "subtitle": "Traffic Analytics",
+            "details": "Monitor traffic sources, peak usage timeframes, device-type breakdowns, and region-based access to optimize reach."
+          },
+          {
+            "subtitle": "Transactions & Revenue Reports",
+            "details": "View all transactions in detailed tables and visual summaries — including successful payments, expirations, and total revenue analytics for better decision-making."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "projectName": "TIKR SMBL",
+    "bannerTitle": "Ticker Smbl — Everything You Need to Decode the Markets",
+    "bannerDescription": "Ticker Smbl is a next-generation financial research platform built for traders, investors, and analysts who demand more than just data.  Built for clarity, speed, and depth, Ticker Smbl combines the power of advanced analytics, clean UI, and comprehensive market data to give you an edge in every decision you make. We cover everything that moves the markets — and help you understand why. From macro trends to micro insights, Ticker Smbl distills complex data into actionable signals.",
+    "bannerImg": "/images/portfolio/Tiker_SMBL/home/home_1.png",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/Tiker_SMBL/home/hexatech_home.png",
+          "/images/portfolio/Tiker_SMBL/home/home.png",
+          "/images/portfolio/Tiker_SMBL/home/workflow_hero.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/Tiker_SMBL/feature/portfolio.png",
+          "/images/portfolio/Tiker_SMBL/feature/stock.png",
+          "/images/portfolio/Tiker_SMBL/feature/news.png",
+          "/images/portfolio/Tiker_SMBL/feature/chatbot.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "Portfolio Management",
+            "details": "Track your holdings across multiple accounts and asset classes. Analyze performance in real-time and make informed decisions with visual insights and trend comparisons."
+          },
+          {
+            "subtitle": "Stock & Market Data",
+            "details": "Access real-time stock quotes, price alerts, fundamental data, and technical indicators. From individual equities to sector overviews, everything is covered."
+          },
+          {
+            "subtitle": "AI Market Assistant",
+            "details": "Chat with an intelligent AI to get news summaries, earnings previews, market forecasts, and custom stock analysis in seconds."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/Tiker_SMBL/dashboard/dashboard_1.png",
+          "/images/portfolio/Tiker_SMBL/dashboard/earning.png",
+          "/images/portfolio/Tiker_SMBL/dashboard/history.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "Advanced Trading Dashboard",
+            "details": "Experience charting like never before — over 100+ indicators, customizable layouts, strategy backtesting, and multi-chart views for power users."
+          },
+          {
+            "subtitle": "Earnings & Historical Insights",
+            "details": "Access complete earnings history, analyst expectations, and past performance to understand how companies behave through different market cycles."
+          },
+          {
+            "subtitle": "Smart Alerts & Watchlists",
+            "details": "Create dynamic watchlists and set real-time alerts on price, volume, RSI, or news triggers. Never miss an opportunity again."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "projectName": "Payment",
+    "bannerTitle": "Make you payment secure and Easey",
+    "bannerDescription": "Ticker Smbl is a next-generation financial research platform built for traders, investors, and analysts who demand more than just data.  Built for clarity, speed, and depth, Ticker Smbl combines the power of advanced analytics, clean UI, and comprehensive market data to give you an edge in every decision you make. We cover everything that moves the markets — and help you understand why. From macro trends to micro insights, Ticker Smbl distills complex data into actionable signals.",
+    "bannerImg": "/images/portfolio/Payment_Mobile_APP/home/home_1.png",
+    "projectDetails": [
+      {
+        "home": [
+          "/images/portfolio/Tiker_SMBL/home/hexatech_home.png",
+          "/images/portfolio/Tiker_SMBL/home/home.png",
+          "/images/portfolio/Tiker_SMBL/home/workflow_hero.png"
+        ]
+      },
+      {
+        "features": [
+          "/images/portfolio/Tiker_SMBL/feature/portfolio.png",
+          "/images/portfolio/Tiker_SMBL/feature/stock.png",
+          "/images/portfolio/Tiker_SMBL/feature/news.png",
+          "/images/portfolio/Tiker_SMBL/feature/chatbot.png"
+        ],
+        "featuresDescription": [
+          {
+            "subtitle": "Portfolio Management",
+            "details": "Track your holdings across multiple accounts and asset classes. Analyze performance in real-time and make informed decisions with visual insights and trend comparisons."
+          },
+          {
+            "subtitle": "Stock & Market Data",
+            "details": "Access real-time stock quotes, price alerts, fundamental data, and technical indicators. From individual equities to sector overviews, everything is covered."
+          },
+          {
+            "subtitle": "AI Market Assistant",
+            "details": "Chat with an intelligent AI to get news summaries, earnings previews, market forecasts, and custom stock analysis in seconds."
+          }
+        ]
+      },
+      {
+        "dashboard": [
+          "/images/portfolio/Payment_Mobile_APP/dashboard/Dashboard_1.png",
+          "/images/portfolio/Payment_Mobile_APP/dashboard/Dashboard_2.png"
+        ],
+        "dashboardDescription": [
+          {
+            "subtitle": "Advanced Trading Dashboard",
+            "details": "Experience charting like never before — over 100+ indicators, customizable layouts, strategy backtesting, and multi-chart views for power users."
+          },
+          {
+            "subtitle": "Earnings & Historical Insights",
+            "details": "Access complete earnings history, analyst expectations, and past performance to understand how companies behave through different market cycles."
+          },
+          {
+            "subtitle": "Smart Alerts & Watchlists",
+            "details": "Create dynamic watchlists and set real-time alerts on price, volume, RSI, or news triggers. Never miss an opportunity again."
+          }
+        ]
+      }
+    ]
+  }
+]

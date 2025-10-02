@@ -52,7 +52,7 @@ const Navagation = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
             <Nav.Link as={Link} to='/home' href="" className='' >{t('route.home')}</Nav.Link>
-            <Nav.Link href="/allProjects">{t('route.project')}</Nav.Link>
+            <Nav.Link href="/projects">{t('route.project')}</Nav.Link>
             {/* <Nav.Link as={Link} to='/addReview' >{t('route.review')}</Nav.Link> */}
             <Nav.Link as={Link} to='/blogs' className='nav-title'>{t('route.blogs')}</Nav.Link>
             <Nav.Link as={Link} to='/contact' >{t('route.contact')}</Nav.Link>

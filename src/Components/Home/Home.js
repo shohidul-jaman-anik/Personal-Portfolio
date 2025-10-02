@@ -1,3 +1,4 @@
+import Feature from "./Features/index";
 import Hero from "./Hero/Hero";
 import MyFacts from "./MyFacts/MyFacts";
 // import MyServices from './MyServices/MyServices';
@@ -13,6 +14,7 @@ const Home = () => {
       <Workflow></Workflow>
       {/* <SkillsProgress ></SkillsProgress> */}
       <Skills></Skills>
+      <Feature></Feature>
       {/* <ServiceIntro></ServiceIntro> */}
       <MyFacts></MyFacts>
       {/* <MyServices ></MyServices> */}

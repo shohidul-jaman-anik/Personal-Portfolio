@@ -56,11 +56,12 @@ const Footer = () => {
 
       <div class="row d-flex pb-4 px-4">
         <div className="footerDescription">
-          <div
-            className="row d-flex justify-content-between align-items-center brand-light-color mt-lg-5"
-            id="voda"
-          >
-            <div className="col-lg-5 contactContainer" data-aos="zoom-in-right">
+          <div className="row brand-light-color mt-lg-5" id="voda">
+            {/* Contact Section */}
+            <div
+              className="col-12 col-lg-4  mb-4 mb-lg-0"
+              data-aos="zoom-in-right"
+            >
               <h3 className=" text-start ms-3">{t("footer.contactUs")}</h3>
               <div className="my-3">
                 <h6 className="text-start ps-3">
@@ -68,38 +69,46 @@ const Footer = () => {
                   {t("footer.address")}
                 </h6>
                 <h6 className="text-start ps-3">
-                  <i className="fas fa-envelope "></i> {t("footer.gmail")}:{" "}
+                  <i className="fas fa-envelope "></i> {t("footer.gmail")}:
                   <span className="text-lowercase ms-2">
-                    {" "}
                     anikh499@gmail.com
                   </span>
                 </h6>
                 <h6 className="text-start ps-3">
-                  <i className="fas fa-info-circle"></i> {t("footer.mobile")} :{" "}
-                  <span className="ms-2"> (+88) 01862812422</span>
+                  <i className="fas fa-info-circle"></i> {t("footer.mobile")} :
+                  <span className="ms-2">(+88) 01862812422</span>
                 </h6>
               </div>
             </div>
 
-            <div className="col-lg-3 footer-text " data-aos="zoom-out-down">
-              <h3 className="text-start ms-3 mb-3 ">
+            {/* Useful Links */}
+            <div
+              className="col-12 col-lg-4 footer-text mb-4 mb-lg-0"
+              data-aos="zoom-out-down"
+            >
+              <h3 className="text-start ms-3 mb-3">
                 {t("footer.usefullLink")}
               </h3>
-              <h6 className="ps-3 text-start ">{t("footer.aboutMe")}</h6>
+              <h6 className="ps-3 text-start">{t("footer.aboutMe")}</h6>
               <h6 className="ps-3 text-start">{t("footer.refundPolicy")}</h6>
               <h6 className="ps-3 text-start">{t("footer.term")}</h6>
               <h6 className="ps-3 text-start">{t("footer.privacyPolicy")}</h6>
             </div>
 
-            <div className="col-lg-4 paymentContainer" data-aos="zoom-in-left">
+            {/* Payment Section */}
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in-left"
+            >
               <div>
-                <h3 className="paymentHeader mb-2 text-start ms-4">
+                <h3 className="paymentHeader mb-2 text-start">
                   {t("footer.payment")}
                 </h3>
                 <img
-                  className="img-fluid rounded paymentImg me-5"
+                  className="img-fluid rounded paymentImg"
+                 
                   src={card}
-                  alt=""
+                  alt="Payment Methods"
                   useMap="#payment"
                 />
               </div>
