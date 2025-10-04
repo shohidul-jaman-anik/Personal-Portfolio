@@ -48,6 +48,26 @@ const Navagation = () => {
             <Nav.Link as={Link} to="/home" href="" className="">
               {t("route.home")}
             </Nav.Link>
+            <NavDropdown title={t("services")} id="services-dropdown">
+              <NavDropdown.Item as={Link} to="/services/web-development">
+                Web Development
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/software-development">
+                Software Development
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/app-development">
+                App Development
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/ai-automation">
+                AI Automation
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/workflow-automation">
+                Workflow Automation
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/devops">
+                Devops Engineering
+              </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/projects">{t("route.project")}</Nav.Link>
             {/* <Nav.Link as={Link} to='/addReview' >{t('route.review')}</Nav.Link> */}
             <Nav.Link as={Link} to="/blogs" className="nav-title">
@@ -56,11 +76,10 @@ const Navagation = () => {
             <Nav.Link as={Link} to="/contact">
               {t("route.contact")}
             </Nav.Link>
+
             {/* <Nav.Link as={Link} to='/about' className='nav-title'>{t('route.about')}</Nav.Link> */}
           </Nav>
           <Nav>
-        
-
             <NavDropdown title="Change Lng" id="nav-dropdown">
               <NavDropdown.Item eventKey="4.1">
                 <p onClick={changeLang("en")} className="me-2">
