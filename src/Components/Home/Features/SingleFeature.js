@@ -7,8 +7,8 @@ const SingleFeature = ({ feature }) => {
     <Card className=" shadow-sm border-0 rounded p-3 hover-shadow text-start text-justify">
       <a href={link} style={{ textDecoration: "none", color: "inherit" }}>
         <div
-          className="d-flex align-items-center justify-content-center bg-dark text-white rounded"
-          style={{ width: "64px", height: "64px" }}
+          className="d-flex align-items-center justify-content-center text-white rounded"
+          style={{ width: "64px", height: "64px", backgroundColor: "#423eb3ff" }}
         >
           <img src={icon} alt={title} width={36} height={36} />
         </div>

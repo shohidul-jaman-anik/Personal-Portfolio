@@ -109,27 +109,38 @@ const Hero = () => {
                 {t("home.downloadResume")}
               </a>
             </div>
-            <div className="personal-profile__social mt-2 ms-4">
-              <a href="https://github.com/shohidul-jaman-anik" target="blank">
+            <div className="personal-profile__social mt-4 d-flex justify-content-center gap-3">
+              <a
+                href="https://github.com/shohidul-jaman-anik"
+                target="_blank"
+                className="social-icon github"
+                rel="noreferrer"
+              >
                 <i className="fa fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/shohidul-jaman-anik/"
-                target="blank"
+                target="_blank"
+                className="social-icon linkedin"
+                rel="noreferrer"
               >
                 <i className="fa fa-linkedin-square"></i>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=100010867243524"
-                target="blank"
-              >
-                <i className="fa fa-facebook-square"></i>
-              </a>
-              <a
                 href="https://www.instagram.com/sohidul_jaman_anik/"
-                target="blank"
+                target="_blank"
+                className="social-icon instagram"
+                rel="noreferrer"
               >
                 <i className="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100010867243524"
+                target="_blank"
+                className="social-icon facebook"
+                rel="noreferrer"
+              >
+                <i className="fa fa-facebook-square"></i>
               </a>
             </div>
           </div>
