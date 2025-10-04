@@ -8,7 +8,7 @@ const AiAutomation = () => {
     bannerDescription:
       "As a passionate full-stack developer, I focus on creating intelligent, efficient, and scalable solutions that simplify complex problems. My work blends modern development practices with AI-driven innovation — helping businesses and individuals save time, reduce effort, and achieve more. From frontend experiences to backend systems and cloud-native solutions, I strive to craft applications that not only perform but also empower growth. Every project I take on is an opportunity to build something meaningful, impactful, and future-ready.",
     bannerImg:
-      "https://lottie.host/c2395a2f-5e74-474f-8532-23c9bc1cc71b/9v8J1AgwKt.lottie",
+      "https://lottie.host/fce74ac5-16b4-41e5-be71-dc91905cd84d/FzMS4Bzyp7.lottie",
   };
 
   const getServiceTitle = "What You Get from AI Automation Service";

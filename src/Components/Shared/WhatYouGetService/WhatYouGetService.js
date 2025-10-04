@@ -12,7 +12,8 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
           key={index}
           className="position-relative d-inline-block"
           style={{
-            background: "linear-gradient(to top, #6964faff 0%, transparent 20%)",
+            background:
+              "linear-gradient(to top, #6964faff 0%, transparent 20%)",
           }}
         >
           {part}
@@ -41,7 +42,7 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
           </h4>
           <p className="mb-4">{bannerInfo?.bannerDescription}</p>
           <Link to="/contact" className="site-btn">
-            Contact Us
+            Contact Me
           </Link>
         </div>
 
@@ -68,37 +69,37 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
           ])}
         </h2>
 
-        <div className="row g-4">
-          {lineService?.map((service, index) => (
-            <div className="col-12" key={index}>
-              <div
-                className={`card shadow-lg p-4 border-0 ${
-                  index % 2 === 0 ? "ms-md-auto me-md-5" : "me-md-auto ms-md-5"
-                }`}
-                style={{ maxWidth: "500px" }}
-              >
-                <h4 className="fw-bold mb-3">{service.title}</h4>
-                <p className="">{service.description}</p>
-              </div>
+        <div className="position-relative">
+          {/* Vertical line in the middle */}
+          <div
+            className="position-absolute top-0 start-50 translate-middle-x bg-primary"
+            style={{ width: "4px", height: "100%" }}
+          ></div>
 
-              {/* Timeline Line + Number */}
-              <div className="d-flex justify-content-center position-relative">
-                <div
-                  className="bg-primary"
-                  style={{
-                    width: "2px",
-                    height: "50px",
-                  }}
-                ></div>
-                <div
-                  className="position-absolute rounded-circle bg-primary text-white d-flex align-items-center justify-content-center shadow"
-                  style={{
-                    top: "-10px",
-                    width: "30px",
-                    height: "30px",
-                  }}
-                >
-                  {index + 1}
+          {lineService?.map((service, index) => (
+            <div
+              key={index}
+              className={`row mb-5 justify-content-${
+                index % 2 === 0 ? "end" : "start"
+              }`}
+            >
+              <div className="col-12 col-md-6">
+                <div className="card shadow-lg p-4 border-0 position-relative">
+                  {/* Timeline Number */}
+                  <div
+                    className="position-absolute top-0 start-50 translate-middle bg-primary rounded-circle text-white d-flex align-items-center justify-content-center shadow"
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      fontWeight: "bold",
+                      fontSize: "1rem",
+                      transform: "translate(-50%, -50%)",
+                    }}
+                  >
+                    {index + 1}
+                  </div>
+                  <h4 className="fw-bold mb-3">{service.title}</h4>
+                  <p className="mb-0">{service.description}</p>
                 </div>
               </div>
             </div>
