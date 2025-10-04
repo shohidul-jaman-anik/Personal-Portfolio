@@ -4,52 +4,49 @@ import WhatYouGetService from "../../Shared/WhatYouGetService/WhatYouGetService"
 
 const AppDevelopment = () => {
   const bannerInfo = {
-    bannerTitle: "Build Engaging and Successful Mobile Apps for Android & iOS",
+    bannerTitle: "I Build Engaging Mobile Apps for Android & iOS",
     bannerDescription:
-      "Today's mobile landscape demands engaging experiences that drive user loyalty and business success. Our experienced team of Android and iOS developers specializes in designing and building custom mobile applications tailored to your unique goals. From intuitive user interfaces to seamless performance, we focus on delivering apps that not only meet your requirements but exceed user expectations. Whether you’re launching a startup or scaling an enterprise, we transform your vision into powerful, feature-rich mobile apps that drive customer loyalty, boost brand visibility, and generate measurable results across both Android and iOS platforms.",
+      "In today’s fast-paced mobile world, apps need to be both functional and delightful to use. As a developer, I specialize in creating custom Android and iOS applications that turn ideas into impactful digital experiences. My focus is on building apps with clean UI, smooth performance, and features that keep users coming back. Whether it’s a startup MVP or a feature-rich enterprise solution, I transform concepts into apps that boost visibility, engage users, and deliver real value across platforms.",
     bannerImg:
       "https://lottie.host/113e1af0-3c70-4799-9637-2841ad6055cf/ljMELfz5WR.lottie",
   };
 
-  const getServiceTitle = "What You Get from App Development Service";
+  const getServiceTitle = "What I Offer in App Development";
 
   const lineService = [
     {
-      title: "Visually Appealing UI Design",
+      title: "Beautiful & User-Friendly UI",
       description:
-        "Our design team creates beautiful and user-friendly user interfaces (UI) that reflect your brand identity. We understand the importance of aesthetics and usability in keeping users engaged with your app.",
+        "I design intuitive and attractive interfaces that enhance usability and reflect your brand identity, ensuring users stay engaged.",
     },
     {
-      title: "Native App Development (Android & iOS)",
+      title: "Native Development for Android & iOS",
       description:
-        "Our expert developers build high-performing apps specifically designed for each platform (Android or iOS). This ensures your app takes full advantage of the unique features and functionalities of each device, delivering a seamless user experience.",
+        "I build high-performance apps tailored for each platform, making full use of device features for a seamless experience.",
     },
     {
-      title: "Scalability & Performance",
+      title: "Scalable & Reliable Apps",
       description:
-        "We build apps that can adapt and grow with your business. Our development approach ensures your app can handle increasing user traffic and maintain optimal performance as your app evolves.",
+        "I develop apps that grow with your needs — ready to handle more users, more data, and evolving business goals.",
     },
     {
       title: "App Store Optimization (ASO)",
       description:
-        "We optimize your app listing in the app stores (Google Play Store & Apple App Store) to improve discoverability. This includes crafting compelling descriptions, choosing relevant keywords, and utilizing high-quality screenshots and app previews.",
+        "I optimize your app store presence with engaging descriptions, keywords, and visuals to improve discoverability and downloads.",
     },
     {
-      title: "Ongoing Support & Maintenance",
+      title: "Maintenance & Future Updates",
       description:
-        "We provide a comprehensive launch strategy to ensure your app reaches its target audience. We also offer ongoing maintenance and support plans to keep your app functioning flawlessly, address any issues that may arise, and incorporate future updates.",
+        "From launch to long-term success, I ensure your app stays up-to-date, bug-free, and ready for new features.",
     },
     {
-      title: "Security & Compliance",
+      title: "Security First Development",
       description:
-        "We prioritize robust security measures to protect your app and user data. Our development process adheres to the latest security best practices and relevant app store guidelines.",
+        "I follow best practices to safeguard user data and ensure compliance with platform guidelines for a trustworthy experience.",
     },
   ];
-
   return (
     <div>
-    
-
       <WhatYouGetService
         bannerInfo={bannerInfo}
         getServiceTitle={getServiceTitle}

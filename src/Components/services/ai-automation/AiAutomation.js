@@ -4,10 +4,9 @@ import WhatYouGetService from "../../Shared/WhatYouGetService/WhatYouGetService"
 
 const AiAutomation = () => {
   const bannerInfo = {
-    bannerTitle:
-      "Work Less, Achieve More — Experience the Power of our Intelligent AI Automation",
+    bannerTitle: "Turning Ideas into Impact — Building Smarter with Code & AI",
     bannerDescription:
-      "At NeuronsNest, we believe your time is best spent growing your business — not juggling repetitive tasks. Our AI solutions take the hard work off your hands — streamlining operations, reducing costs, and boosting productivity so you can focus on what truly matters: growing your business. By integrating our AI into your marketing and CRM strategies, you can build stronger, more meaningful relationships with your audience, increase conversion rates, and scale your operations seamlessly. Our tools not only optimize customer journeys but also empower your team to focus on strategic growth initiatives rather than manual processes.",
+      "As a passionate full-stack developer, I focus on creating intelligent, efficient, and scalable solutions that simplify complex problems. My work blends modern development practices with AI-driven innovation — helping businesses and individuals save time, reduce effort, and achieve more. From frontend experiences to backend systems and cloud-native solutions, I strive to craft applications that not only perform but also empower growth. Every project I take on is an opportunity to build something meaningful, impactful, and future-ready.",
     bannerImg:
       "https://lottie.host/c2395a2f-5e74-474f-8532-23c9bc1cc71b/9v8J1AgwKt.lottie",
   };
@@ -16,34 +15,34 @@ const AiAutomation = () => {
 
   const lineService = [
     {
-      title: "Automated Business Workflows",
+      title: "Smart & Automated Workflows",
       description:
-        "We design AI systems that automate repetitive tasks, from data entry and scheduling to customer support. This increases efficiency, reduces operational costs, and frees up your team to focus on high-impact work.",
+        "I develop systems that reduce repetitive work — from data handling to task automation — allowing you to focus on the important parts of your business.",
     },
     {
-      title: "AI-Powered Decision Making",
+      title: "Data-Driven Decision Tools",
       description:
-        "Our solutions analyze vast amounts of data in real time to uncover actionable insights. From predictive analytics to intelligent reporting, you get smarter decision-making tools that drive growth.",
+        "I integrate solutions that analyze real-time data, providing insights and reports that help in smarter and faster decision-making.",
     },
     {
-      title: "Natural Language Processing (NLP)",
+      title: "Conversational & NLP Solutions",
       description:
-        "Leverage AI to understand and interact with human language. From chatbots to sentiment analysis, our NLP solutions enhance user communication and enable seamless customer experiences.",
+        "By using chatbots, sentiment analysis, and AI-driven communication tools, I create engaging and human-like user interactions.",
     },
     {
-      title: "Computer Vision Solutions",
+      title: "Visual Intelligence with Computer Vision",
       description:
-        "We build AI models that interpret and process visual information — useful for object detection, facial recognition, and image classification. Ideal for security, quality control, and user interaction use cases.",
+        "I build applications that can detect objects, recognize faces, and process images — useful for security, quality assurance, and user engagement.",
     },
     {
-      title: "Personalization & Recommendation Engines",
+      title: "Personalized User Experiences",
       description:
-        "Boost engagement with personalized user experiences. Our AI systems dynamically recommend content, products, or actions based on user behavior and preferences — increasing conversions and satisfaction.",
+        "From tailored recommendations to adaptive interfaces, I design solutions that boost engagement and satisfaction by putting users first.",
     },
     {
-      title: "Scalable & Secure AI Infrastructure",
+      title: "Scalable & Secure Applications",
       description:
-        "We deploy AI models on cloud-native infrastructure that scales with your needs while maintaining enterprise-level security, performance, and compliance standards.",
+        "I deploy applications on modern cloud infrastructure that scales with demand, ensuring both security and top-notch performance.",
     },
   ];
 

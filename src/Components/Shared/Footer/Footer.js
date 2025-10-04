@@ -54,7 +54,7 @@ const Footer = () => {
         {/* <div class="col-md-2"> <img class="img-1" src="https://i.imgur.com/jBlQcMI.png" /> </div> */}
       </div>
 
-      <div class="row d-flex pb-4 px-4">
+      <div class="row d-flex pb-4 px-4 text-white">
         <div className="footerDescription">
           <div className="row brand-light-color mt-lg-5" id="voda">
             {/* Contact Section */}

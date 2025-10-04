@@ -1,5 +1,6 @@
 import Feature from "./Features/index";
-import Hero from "./Hero/Hero";
+import Hero from "./Hero/index";
+
 import MyFacts from "./MyFacts/MyFacts";
 // import MyServices from './MyServices/MyServices';
 import Skills from "./Skills/Skills";
@@ -8,6 +9,7 @@ import Workflow from "./Workflow/Workflow";
 // import ServiceIntro from './About/ServiceIntro';
 
 const Home = () => {
+  
   return (
     <div>
       <Hero></Hero>

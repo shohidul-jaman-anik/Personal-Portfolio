@@ -34,10 +34,10 @@ const featuresData = [
   {
     id: 5,
     icon: "/images/icon/icon-01.svg",
-    title: "Marketing AI & CRM Automation",
+    title: "DevOps Engineering",
     description:
       "Boost customer engagement and sales with AI-powered marketing and CRM automation. From smart chatbots to lead scoring and personalized campaigns, we help businesses automate communication and drive conversions.",
-    link: `/services/marketing`,
+    link: `/services/devops`,
   },
   {
     id: 6,

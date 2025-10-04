@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row, Spinner } from "react-bootstrap";
 import { useParams } from "react-router-dom"; // or next/router for Next.js
-import PortfolioDashboard from "../Shared/PortfolioDashboard/PortfolioDashboard";
 import Carouseles from "../Shared/Carouseles/Carouseles";
+import PortfolioDashboard from "../Shared/PortfolioDashboard/PortfolioDashboard";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -50,12 +50,12 @@ const ProjectDetails = () => {
     .slice(0, 10);
 
   return (
-    <Container className="my-5 p-4 shadow rounded bg-white">
+    <Container className="my-5 p-4 rounded bg-white">
       {/* Banner Section */}
-      <Row className="align-items-center mb-5">
-        <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
-          <h2 className="fw-bold">{project.bannerTitle}</h2>
-          <p className="text-muted">{project.bannerDescription}</p>
+      <Row className="align-items-center my-5">
+        <Col md={6} className="text-center text-md-start ">
+          <h1 className="fw-bold my-4">{project.bannerTitle}</h1>
+          <p className="lead text-justify">{project.bannerDescription}</p>
         </Col>
         <Col md={6} className="d-flex justify-content-center">
           <img
@@ -68,31 +68,119 @@ const ProjectDetails = () => {
       </Row>
 
       {/* Features Section */}
-      <h3 className="text-center mb-4">Features</h3>
-      <Row>
-        <Col lg={4}>
-          {project.projectDetails
-            .flatMap((detail) => detail.featuresDescription || [])
-            .slice(0, 5)
-            .map((desc, idx) => (
-              <div key={idx} className="d-flex mb-3">
-                <div className="me-3">
-                  {/* Simple icon placeholders */}
-                  <span className="badge bg-primary rounded-circle p-3 d-inline-flex align-items-center justify-content-center">
-                    {idx + 1}
-                  </span>
-                </div>
-                <div>
-                  <h5>{desc.subtitle}</h5>
-                  <p className="text-muted mb-0">{desc.details}</p>
-                </div>
+      <section className="py-5 py-md-5 py-lg-5">
+        <div className="container">
+          {/* Header */}
+          <div className="text-center mb-5">
+            <p className="text-uppercase fw-bold text-primary small">
+              Features
+            </p>
+            <h2 className="fw-bold display-5 text-dark">
+              {project.bannerTitle}
+            </h2>
+          </div>
+
+          {/* Grid */}
+          <div className="row align-items-center g-5 text-start">
+            {/* Left Side - Descriptions */}
+            <div className="col-lg-5">
+              {project.projectDetails
+                .flatMap((detail) => detail.featuresDescription || [])
+                .slice(0, 5)
+                .map((desc, i) => (
+                  <div className="d-flex mb-4" key={i}>
+                    {/* Icons */}
+                    {i === 0 && (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="flex-shrink-0 text-success"
+                        width="36"
+                        height="36"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
+                        />
+                      </svg>
+                    )}
+                    {i === 1 && (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="flex-shrink-0 text-primary"
+                        width="36"
+                        height="36"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                    )}
+                    {i === 2 && (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="flex-shrink-0 text-danger"
+                        width="36"
+                        height="36"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        />
+                      </svg>
+                    )}
+                    {i === 3 && (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="flex-shrink-0 text-warning"
+                        width="36"
+                        height="36"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          d="M9.5 18h5m-4.5 3h4.5M12 2a7 7 0 00-4 12.75V17a1 1 0 001 1h6a1 1 0 001-1v-2.25A7 7 0 0012 2z"
+                        />
+                      </svg>
+                    )}
+
+                    {/* Text */}
+                    <div className="ms-3">
+                      <h4 className="fw-semibold text-dark">{desc.subtitle}</h4>
+                      <p className="mb-3">{desc.details}</p>
+                    </div>
+                  </div>
+                ))}
+            </div>
+
+            {/* Right Side - Carousel */}
+            <div className="col-lg-7">
+              <div className="mx-auto" style={{ maxWidth: "1000px" }}>
+                <Carouseles images={featuresImages} />
               </div>
-            ))}
-        </Col>
-        <Col lg={8}>
-          <Carouseles images={featuresImages} />
-        </Col>
-      </Row>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Dashboard Section */}
       <PortfolioDashboard

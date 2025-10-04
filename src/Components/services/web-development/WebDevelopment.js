@@ -3,51 +3,51 @@ import WhatYouGetService from "../../Shared/WhatYouGetService/WhatYouGetService"
 
 const WebDevelopment = () => {
   const bannerInfo = {
-    bannerTitle: "Crafting the Digital Future through Expert Web Development",
+    bannerTitle: "Building Modern and Engaging Websites",
     bannerDescription:
-      "At NeuronsNest, we provide professional web development services to create fast, secure, and responsive websites tailored to your business needs. Our developers build user-friendly, SEO-optimized websites that turn visitors into customers. Whether you need a custom site, eCommerce platform, or web app, we deliver scalable and innovative solutions to enhance your digital presence.",
+      "I design and develop fast, secure, and responsive websites that provide excellent user experiences. From custom websites to eCommerce platforms and web apps, I create scalable solutions that help you achieve your goals and grow your online presence.",
     bannerImg:
       "https://lottie.host/a0dac632-3152-4233-8844-6b307a56df2b/cKN7KWS5sE.lottie",
   };
 
-  const getServiceTitle = "What You Get from Web Development Service";
+  const getServiceTitle = "What I Offer in Web Development";
 
   const lineService = [
     {
-      title: "Fully Responsive",
+      title: "Fully Responsive Design",
       description:
-        "Websites designed for seamless experience across all devices—desktop, tablet, or smartphone.",
+        "I build websites that look and perform perfectly across all devices—desktop, tablet, and mobile.",
     },
     {
-      title: "Search Engine Optimization (SEO)",
+      title: "SEO-Friendly Development",
       description:
-        "On-page SEO best practices, including optimized meta tags, headings, keyword-rich content, and SEO-friendly URLs.",
+        "I implement best SEO practices including optimized meta tags, headings, keyword-rich content, and clean URLs to improve search rankings.",
     },
     {
-      title: "Scalability",
+      title: "Scalable Solutions",
       description:
-        "Websites built to grow with your business—adding new features, products, or services without limits.",
+        "I create websites that grow with your needs, easily adding new features, pages, or products as your business evolves.",
     },
     {
-      title: "Security",
+      title: "Security-Focused",
       description:
-        "Robust security measures including encryption and secure login systems to protect data and users.",
+        "I apply strong security practices like encryption and secure authentication to protect your website and user data.",
     },
     {
-      title: "Optimized",
+      title: "Performance Optimization",
       description:
-        "Fast-loading websites with efficient coding, image optimization, and caching to enhance user experience and rankings.",
+        "I ensure fast-loading pages with optimized code, images, and caching for better user experience and search engine ranking.",
     },
     {
-      title: "Ongoing Support & Maintenance",
+      title: "Maintenance & Support",
       description:
-        "Post-launch support for technical help, updates, and security patches to keep your site running smoothly.",
+        "I provide ongoing support for updates, troubleshooting, and improvements to keep your website running smoothly.",
     },
   ];
 
   return (
     <div>
-       <WhatYouGetService
+      <WhatYouGetService
         bannerInfo={bannerInfo}
         getServiceTitle={getServiceTitle}
         lineService={lineService}

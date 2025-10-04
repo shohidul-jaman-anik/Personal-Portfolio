@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "../Shared/Loading/Loading";
 // import Loading from "@/components/Loading/page";
-import './blogDetails.css'
+import "./blogDetails.css";
 
 const BlogDetailPage = () => {
   const { id } = useParams();
@@ -65,7 +65,6 @@ const BlogDetailPage = () => {
         </div>
 
         <h1 className="display-4 mb-3">{blog.title}</h1>
-
       </div>
 
       {/* Content Section */}

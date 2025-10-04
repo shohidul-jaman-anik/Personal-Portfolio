@@ -12,7 +12,7 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
           key={index}
           className="position-relative d-inline-block"
           style={{
-            background: "linear-gradient(to top, #f5e663 50%, transparent 50%)",
+            background: "linear-gradient(to top, #6964faff 0%, transparent 20%)",
           }}
         >
           {part}
@@ -35,11 +35,12 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
               "Web Development",
               "Ai Automation",
               "workflow automation",
+              "Custom Software",
               "AI-Driven Marketing and CRM",
             ])}
           </h4>
-          <p className="mb-4 text-muted">{bannerInfo?.bannerDescription}</p>
-          <Link to="/contact" className="btn btn-dark btn-lg px-4 fw-semibold">
+          <p className="mb-4">{bannerInfo?.bannerDescription}</p>
+          <Link to="/contact" className="site-btn">
             Contact Us
           </Link>
         </div>
@@ -77,7 +78,7 @@ const WhatYouGetService = ({ bannerInfo, getServiceTitle, lineService }) => {
                 style={{ maxWidth: "500px" }}
               >
                 <h4 className="fw-bold mb-3">{service.title}</h4>
-                <p className="text-muted">{service.description}</p>
+                <p className="">{service.description}</p>
               </div>
 
               {/* Timeline Line + Number */}

@@ -2,46 +2,45 @@ import WhatYouGetService from "../../Shared/WhatYouGetService/WhatYouGetService"
 
 const WorkflowAutomation = () => {
   const bannerInfo = {
-    bannerTitle:
-      "Boost Productivity with AI-Powered Workflow Automation Solutions",
+    bannerTitle: "Boost Productivity with Smart Workflow Automation",
     bannerDescription:
-      "NeuronsNest extends smart AI-powered workflow automation services that make operations more efficient, minimize on manual work, and speed up productivity. Our services assist businesses in automating repetitive tasks to improve workflow efficiency that are consistently done, make decisions based on data in real time, and determine outcomes that are more accurate. At NeuronsNest, our smart automation tools free your team to concentrate on strategic work by managing everyday operations automatically, whether you are a new business or an established one. Our platform makes complicated workflows easier by handling everything from scheduling tasks to smart approvals and notifications. NeuronsNest is your trusted partner for business process automation, AI workflow optimization, and digital transformation. Embrace the future of work with them.",
+      "I build AI-powered workflow automation solutions that help you work smarter, save time, and increase efficiency. By automating repetitive tasks, streamlining operations, and enabling real-time data-driven decisions, my tools let you focus on strategic priorities while the routine work runs automatically. Whether for small projects or larger operations, I create customized workflows that simplify task management, approvals, and notifications, helping you achieve more with less effort.",
     bannerImg:
       "https://lottie.host/4b5fa6f6-20c8-4459-976a-552ec11dc406/i0yp78iumY.lottie",
   };
 
-  const getServiceTitle = "What You Get from SEO Service";
+  const getServiceTitle = "What I Offer in Workflow Automation";
 
   const lineService = [
     {
       title: "Task Automation",
       description:
-        "Automate repetitive, rule-based tasks across departments to reduce manual effort, eliminate errors, and free up your team for more strategic work.",
+        "I automate repetitive tasks to save time, reduce errors, and free you to focus on more strategic work.",
     },
     {
-      title: "Real-Time Data Processing",
+      title: "Real-Time Data Handling",
       description:
-        "Enable instant decision-making with real-time data collection, analysis, and processing integrated into your workflows for smarter business outcomes.",
+        "I integrate real-time data collection and processing into workflows for faster, smarter decision-making.",
     },
     {
       title: "Smart Approvals & Notifications",
       description:
-        "Use intelligent workflows to automate approval chains and notify the right stakeholders at the right time—ensuring timely decisions and better compliance.",
+        "Automate approval chains and notifications so the right people get informed at the right time for smoother operations.",
     },
     {
-      title: "Cross-Platform Integration",
+      title: "Cross-Tool Integration",
       description:
-        "Connect all your business tools—CRMs, ERPs, communication apps, and more—into one seamless automated system that shares data and triggers workflows.",
+        "I connect your apps, CRMs, and platforms into one seamless automated system that communicates and triggers workflows efficiently.",
     },
     {
       title: "Custom Workflow Design",
       description:
-        "We design tailor-made automation flows aligned with your specific operations—no bloated tools, just exactly what you need to work faster and smarter.",
+        "I design automation flows tailored to your exact needs—no extra clutter, just streamlined processes that save time.",
     },
     {
-      title: "Scalable & Secure Infrastructure",
+      title: "Scalable & Secure",
       description:
-        "Built for growth and peace of mind, our automation systems are scalable, cloud-ready, and fortified with enterprise-grade security protocols.",
+        "My automation solutions are built to grow with you, with secure, cloud-ready infrastructure that keeps your workflows reliable.",
     },
   ];
 

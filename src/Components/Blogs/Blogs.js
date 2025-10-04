@@ -37,7 +37,13 @@ const Blogs = () => {
     navigate(`/blog/${id}`);
   };
 
-  const tagsList = ["web-development", "app-development", "Marketing", "programming", "AI"];
+  const tagsList = [
+    "web-development",
+    "app-development",
+    "Marketing",
+    "programming",
+    "AI",
+  ];
 
   return (
     <div className="container my-5 ">

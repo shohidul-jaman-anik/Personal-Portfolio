@@ -30,11 +30,11 @@ const Workflow = () => {
     <div className="container my-5">
       {/* Section Header */}
       <div className="text-center mb-5">
-        <h2 className="fw-bold">My Workflow</h2>
-        <p className="text-muted">
+        <h2 className="section__title">My Workflow</h2>
+        <p className=" mx-auto" style={{ maxWidth: "720px" }}>
           Unleashing Workflow Excellence — my process starts with in-depth
-          research, moves on to innovative design, meticulous development,
-          and ends with a smooth delivery.
+          research, moves on to innovative design, meticulous development, and
+          ends with a smooth delivery.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ const Workflow = () => {
               />
               <div className="card-body">
                 <h5 className="card-title fw-bold">{workflow.title}</h5>
-                <p className="card-text  text-body-secondary ">{workflow.description}</p>
+                <p className="card-text ">{workflow.description}</p>
               </div>
             </div>
           </div>

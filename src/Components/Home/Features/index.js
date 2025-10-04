@@ -8,9 +8,9 @@ const Feature = () => {
       <Container>
         {/* Section Header */}
         <div className="text-center mb-5">
-          <h2 className="text-primary fw-bold">My Specialization</h2>
+          <h2 className="section__title">My Services</h2>
 
-          <p className="text-muted mx-auto" style={{ maxWidth: "720px" }}>
+          <p className="mx-auto" style={{ maxWidth: "720px" }}>
             Discover the core offerings of my services, where creativity aligns
             with quality. Each service is thoughtfully tailored to meet your
             needs, ensuring seamless interactions and outstanding results.

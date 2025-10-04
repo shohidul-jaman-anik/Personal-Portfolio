@@ -6,8 +6,8 @@ const Skills = () => {
 
     return (
         <div className="skills" id="skills">
-            <span className="section__subtitle">My abilities</span>
-            <h2 className="section__title text-center">My Experience</h2>
+            <h2 className="section__title text-center">My Skill</h2>
+            <p className="mx-auto" style={{ maxWidth: "720px" }}>Expert in frontend & backend development with modern frameworks and databases. Skilled in cloud, DevOps, and scalable solutions</p>
 
             <div className="skills__container container">
                 <div className="skills__content" data-aos="fade-down">
