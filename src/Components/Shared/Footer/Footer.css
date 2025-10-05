@@ -9,14 +9,14 @@ footer {
 }
 .paymentImg {
   height: 140px;
-  width: 180 px;
+  width: 90%;
 }
 .copyright {
   color: white;
   text-align: center;
 }
 .footer-header {
-  /* color: #eb3e1f; */
+  color: #eb3e1f;
   /* margin-top: 2%; */
 }
 
@@ -92,13 +92,12 @@ footer {
   text-decoration: none;
   margin-top: 20px;
 }
+.containerSide {
+  margin: 0% 12% !important;
+}
 
 @media screen and (max-width: 576px) {
-  .container-fluid {
-    padding-top: 350px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
   .subFooter {
     display: block;
   }
@@ -120,7 +119,7 @@ footer {
   }
   .footerHeader {
     font-size: medium;
-    margin: 5% 0%;
+    /* margin: 5% 0%; */
   }
   .fBtn {
   }
@@ -150,8 +149,9 @@ footer {
   .paymentContainer {
     margin: 5% 0% !important;
   }
-  .paymentContainer h3 {
-    margin: 5% !important;
+
+  .containerSide {
+    margin: 0% 0% !important;
   }
 }
 

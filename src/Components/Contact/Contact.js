@@ -18,43 +18,43 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    emailjs
-      .sendForm(
-        "service_86b3elp",
-        "template_huzdope",
-        form.current,
-        "gJkpNWd5WX7H7BjUB"
-      )
-      .then(
-        (result) => {
-          // console.log(result.text);
-          toast.success("Message send Sucessfully");
-        },
-        (error) => {
-          // console.log(error.text);
-          toast.error("Message did't send");
-        }
-      );
-    reset();
+  // const onSubmit = (data) => {
+  //   emailjs
+  //     .sendForm(
+  //       "service_86b3elp",
+  //       "template_huzdope",
+  //       form.current,
+  //       "gJkpNWd5WX7H7BjUB"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         // console.log(result.text);
+  //         toast.success("Message send Sucessfully");
+  //       },
+  //       (error) => {
+  //         // console.log(error.text);
+  //         toast.error("Message did't send");
+  //       }
+  //     );
+  //   reset();
 
-    // console.log(data)
-    const url = `https://intense-woodland-21531.herokuapp.com/message`;
-    fetch(url, {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((result) => {
-        reset();
-        if (result) {
-          // toast('Message send Sucessfully')
-        }
-      });
-  };
+  //   // console.log(data)
+  //   const url = `https://intense-woodland-21531.herokuapp.com/message`;
+  //   fetch(url, {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((result) => {
+  //       reset();
+  //       if (result) {
+  //         // toast('Message send Sucessfully')
+  //       }
+  //     });
+  // };
   return (
     <div className="backgrounds">
       <div id="contact" className="container section contactContainer">
@@ -77,7 +77,7 @@ const Contact = () => {
 
         <form
           ref={form}
-          onSubmit={handleSubmit(onSubmit)}
+          // onSubmit={handleSubmit(onSubmit)}
           data-aos="fade-left"
           className="contactForm"
         >
