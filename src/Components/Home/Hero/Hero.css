@@ -120,6 +120,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .personal-profile__social a {
+    font-size: 2.4rem !important;
+    margin-bottom: 20px;
+  }
   .hero-img-container {
     min-height: auto;
     margin-top: 2rem;
@@ -131,7 +135,7 @@ body {
 
   #tsparticles {
     position: relative;
-    height: 110vh;
+    height: 130vh;
   }
   .bannerContainer {
     width: 100%;
@@ -139,13 +143,15 @@ body {
   }
 
   .bannerDiscription p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    
   }
 
   .site-btn {
-    height: 2.5rem;
+    height: 2.6rem;
     min-width: 8rem !important;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0.5rem;
+    margin-top: 15px;
   }
 }
