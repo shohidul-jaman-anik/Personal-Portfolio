@@ -102,7 +102,6 @@ footer {
     display: block;
   }
   p {
-    font-size: x-small;
     word-wrap: normal;
     padding: 0px !important;
     margin: 0% !important;
@@ -116,10 +115,6 @@ footer {
   }
   .row {
     padding: 0%;
-  }
-  .footerHeader {
-    font-size: medium;
-    /* margin: 5% 0%; */
   }
   .fBtn {
   }

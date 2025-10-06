@@ -13,9 +13,9 @@ const Footer = () => {
       <div class="subFooterContainer row justify-content-center mt-4 row-1 containerSide">
         <div class="subFooter w-100">
           <div class="w-75 mal">
-            <h1 class="text-black text-start footerHeader ">
+            <h2 class="text-start footerHeader ">
               Have Any Project in Mind?
-            </h1>
+            </h2>
             <p class="pb-3 text-black text-start">
               I'm excited to have the opportunity to work on your project as a
               Software Developer. I'm excited to have the opportunity to work on

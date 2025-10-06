@@ -79,9 +79,9 @@ const Hero = () => {
             data-aos-easing="linear"
             data-aos-duration="1500"
           >
-            <p className="personal-profile__name">
+            <h2 className="personal-profile__name">
               <span>{t("home.name")}</span>
-            </p>
+            </h2>
             <p className="personal-profile__work">
               <span style={{ fontWeight: "bold" }}>
                 <Typewriter

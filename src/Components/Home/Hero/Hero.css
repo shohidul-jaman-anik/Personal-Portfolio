@@ -135,7 +135,7 @@ body {
 
   #tsparticles {
     position: relative;
-    height: 130vh;
+    height: 140vh;
   }
   .bannerContainer {
     width: 100%;
@@ -153,5 +153,8 @@ body {
     font-size: 15px;
     padding: 0.5rem;
     margin-top: 15px;
+  }
+  p {
+    font-size: 1.4rem !important;
   }
 }
