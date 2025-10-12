@@ -7,7 +7,7 @@ const Feature = () => {
     <section id="features" className="py-5">
       <Container>
         {/* Section Header */}
-        <div className="text-center mb-5">
+        <div className="">
           <h2 className="section__title">My Services</h2>
 
           <p className="mx-auto" style={{ maxWidth: "720px" }}>
